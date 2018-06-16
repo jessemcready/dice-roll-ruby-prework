@@ -4,5 +4,8 @@
 
 def roll
   # code goes here
-  rand(1..6)
+  #rand(1..6)
+  # bonus solve using array
+  possible_rolls = [1..6]
+  possible_rolls[rand(1..6)]
 end
