@@ -7,5 +7,5 @@ def roll
   #rand(1..6)
   # bonus solve using array
   possible_rolls = (1..6).to_a
-  possible_rolls[rand(1..6)]
+  possible_rolls[rand(0..5)]
 end
